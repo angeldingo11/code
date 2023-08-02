@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by usuario_2 (own) -->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-F12C2EA2-262F-C1AD-B214-1748C62A42CC" schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+			<metadata>
+				<schema>ADL SCORM</schema>
+				<schemaversion>1.2</schemaversion>
+				<adlcp:location>M4.xml</adlcp:location>
+			</metadata>
+	<organizations default="B10">
+		<organization identifier="B10">
+			<title>Procesos Operativos de Recepción y Reservas</title>
+			<item identifier="M4" isvisible="true">
+					<title>Atención al cliente</title>
+					<item identifier="S01_01_01" identifierref="R01_01_01" isvisible="true">
+						<title>Procedimientos generales</title>
+					</item>
+					<item identifier="S01_01_02" identifierref="R01_01_02" isvisible="true">
+						<title>Procedimientos específicos </title>
+					</item>
+		  </item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="R01_01_01" type="webcontent" adlcp:scormtype="sco" href="curso/curso.html?le=1&amp;ca=1&amp;mo=1"/>
+		<resource identifier="R01_01_02" type="webcontent" adlcp:scormtype="sco" href="curso/curso.html?le=1&amp;ca=1&amp;mo=2"/>
+	</resources>
+</manifest>
